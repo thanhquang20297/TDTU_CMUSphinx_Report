@@ -1,0 +1,9 @@
+﻿  parse_cmd_ln.c
+  main.c
+d:\sphinx\sphinxtrain\src\programs\init_gau\main.c(130): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+d:\sphinx\sphinxtrain\src\programs\init_gau\main.c(135): warning C4244: '=': conversion from 'double' to 'mfcc_t', possible loss of data
+  init_gau.c
+d:\sphinx\sphinxtrain\src\programs\init_gau\init_gau.c(227): warning C4013: 'str2words' undefined; assuming extern returning int
+  accum.c
+  Generating Code...
+  init_gau.vcxproj -> D:\sphinx\sphinxtrain\win32\programs\init_gau\.\..\..\..\bin\Debug\x64\init_gau.exe

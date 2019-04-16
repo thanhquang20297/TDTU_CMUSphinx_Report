@@ -1,0 +1,5 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  init_mixw.vcxproj -> D:\sphinx\sphinxtrain\win32\programs\init_mixw\.\..\..\..\bin\Debug\Win32\init_mixw.exe

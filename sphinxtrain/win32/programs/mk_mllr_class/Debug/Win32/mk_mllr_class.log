@@ -1,0 +1,5 @@
+﻿  parse_cmd_ln.c
+  main.c
+  Generating Code...
+main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  mk_mllr_class.vcxproj -> D:\sphinx\sphinxtrain\win32\programs\mk_mllr_class\.\..\..\..\bin\Debug\Win32\mk_mllr_class.exe

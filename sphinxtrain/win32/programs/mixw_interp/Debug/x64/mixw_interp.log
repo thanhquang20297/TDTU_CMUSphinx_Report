@@ -1,0 +1,5 @@
+﻿  parse_cmd_ln.c
+  main.c
+d:\sphinx\sphinxtrain\src\programs\mixw_interp\main.c(136): warning C4244: '=': conversion from 'double' to 'float32', possible loss of data
+  Generating Code...
+  mixw_interp.vcxproj -> D:\sphinx\sphinxtrain\win32\programs\mixw_interp\.\..\..\..\bin\Debug\x64\mixw_interp.exe

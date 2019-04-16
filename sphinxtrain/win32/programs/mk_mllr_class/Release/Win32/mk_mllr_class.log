@@ -1,0 +1,4 @@
+﻿  main.c
+  parse_cmd_ln.c
+  Generating Code...
+  mk_mllr_class.vcxproj -> D:\sphinx\sphinxtrain\win32\programs\mk_mllr_class\.\..\..\..\bin\Release\Win32\mk_mllr_class.exe
