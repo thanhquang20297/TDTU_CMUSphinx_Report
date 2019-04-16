@@ -1,0 +1,47 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-cpopsfn		D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_architecture/other.cpmeanvar
+-example	no	no
+-help		no	no
+-ifullgaufn		
+-igaufn			D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\model_parameters\other.ci_cont_flatinitial\globalvar
+-imixwfn		
+-itmatfn		
+-ncbout			27
+-nmixwout		0
+-ntmatout		0
+-ofullgaufn		
+-ogaufn			D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\model_parameters\other.ci_cont_flatinitial\variances
+-omixwfn		
+-otmatfn		
+
+INFO: s3gau_io.c(169): Read D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\model_parameters\other.ci_cont_flatinitial\globalvar [1x1x1 array]
+INFO: s3gau_io.c(228): Wrote D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\model_parameters\other.ci_cont_flatinitial\variances [27x1x1 array]
+gau 0 <= 0
+gau 1 <= 0
+gau 2 <= 0
+gau 3 <= 0
+gau 4 <= 0
+gau 5 <= 0
+gau 6 <= 0
+gau 7 <= 0
+gau 8 <= 0
+gau 9 <= 0
+gau 10 <= 0
+gau 11 <= 0
+gau 12 <= 0
+gau 13 <= 0
+gau 14 <= 0
+gau 15 <= 0
+gau 16 <= 0
+gau 17 <= 0
+gau 18 <= 0
+gau 19 <= 0
+gau 20 <= 0
+gau 21 <= 0
+gau 22 <= 0
+gau 23 <= 0
+gau 24 <= 0
+gau 25 <= 0
+gau 26 <= 0
+Mon Apr 15 21:01:42 2019

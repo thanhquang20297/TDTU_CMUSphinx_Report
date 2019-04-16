@@ -1,0 +1,45 @@
+Language model created by QuickLM on Fri Apr 12 19:30:05 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 5 sentences and 7 words
+
+\data\
+ngram 1=7
+ngram 2=10
+ngram 3=5
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.4771 BA -0.2218
+-1.4771 BON -0.2218
+-1.4771 HAI -0.2218
+-1.4771 MOT -0.2218
+-1.4771 NAM -0.2218
+
+\2-grams:
+-1.0000 <s> BA 0.0000
+-1.0000 <s> BON 0.0000
+-1.0000 <s> HAI 0.0000
+-1.0000 <s> MOT 0.0000
+-1.0000 <s> NAM 0.0000
+-0.3010 BA </s> -0.3010
+-0.3010 BON </s> -0.3010
+-0.3010 HAI </s> -0.3010
+-0.3010 MOT </s> -0.3010
+-0.3010 NAM </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BA </s>
+-0.3010 <s> BON </s>
+-0.3010 <s> HAI </s>
+-0.3010 <s> MOT </s>
+-0.3010 <s> NAM </s>
+
+\end\

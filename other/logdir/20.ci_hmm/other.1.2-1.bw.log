@@ -1,0 +1,327 @@
+INFO: main.c(229): Compiled on Mar 20 2019 at 09:33:44
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		yes
+-abeam		1e-100		1.000000e-90
+-accumdir			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/bwaccumdir/other_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other_train.fileids
+-diagfull	no		no
+-dictfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.dic
+-example	no		no
+-fdictfn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/means
+-meanreest	yes		yes
+-mixwfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_architecture/other.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_architecture/other.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 9 total models defined (9 base, 0 tri)
+INFO: model_def_io.c(575): 36 total states
+INFO: model_def_io.c(576): 27 total tied states
+INFO: model_def_io.c(577): 27 total tied CI states
+INFO: model_def_io.c(578): 9 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(117): Read D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/mixture_weights [27x1x1 array]
+INFO: s3tmat_io.c(118): Read D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/transition_matrices [9x3x4 array]
+INFO: mod_inv.c(301): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(169): Read D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/means [27x1x1 array]
+INFO: s3gau_io.c(169): Read D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/variances [27x1x1 array]
+INFO: gauden.c(176): 27 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(431): Will reestimate mixing weights.
+INFO: main.c(433): Will reestimate means.
+INFO: main.c(435): Will reestimate variances.
+INFO: main.c(443): Will reestimate transition matrices
+INFO: main.c(456): Reading main dictionary: D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.dic
+INFO: lexicon.c(221): 5 entries added from D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.dic
+INFO: main.c(466): Reading filler dictionary: D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.filler
+INFO: lexicon.c(221): 3 entries added from D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/etc/other.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 51.84 -4.63 -9.16 -10.75  0.20 20.75 17.29  1.35  9.08  1.07 -14.15 -23.98 -13.52 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                        Ba   89    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    16 10  3 6 2.468312e-12 -1.582041e+02 -1.408017e+04
+INFO: cmn.c(133): CMN: 43.60 10.71 -2.75 -10.55 -11.64  7.26  5.33 -10.31 -2.26  0.70  4.90 -8.47 -5.66 
+utt>     1                      Ba_1  117    0    16 12  3 7 6.405919e-12 -1.428696e+02 -1.671574e+04
+INFO: cmn.c(133): CMN: 39.38 11.43  1.33 -9.98 -11.20  9.22  1.33 -8.85 -6.60  5.07 -0.37 -4.72 -2.18 
+utt>     2                      Ba_2  114    0    16 12  3 7 4.359445e-12 -1.445477e+02 -1.647844e+04
+INFO: cmn.c(133): CMN: 46.76  9.79 -0.33 -13.67 -13.02 10.11  1.89 -7.85 -3.29  7.36  0.35 -5.10 -7.93 
+utt>     3                      Ba_3  113    0    16 13  3 7 7.731605e-12 -1.415267e+02 -1.599252e+04
+INFO: cmn.c(133): CMN: 44.63 12.09 -1.41 -13.38 -9.22  6.69  2.11 -8.86 -8.39  9.27 -0.19 -4.53 -7.52 
+utt>     4                      Ba_4  131    0    16 13  3 6 7.123831e-12 -1.422034e+02 -1.862865e+04
+INFO: cmn.c(133): CMN: 43.37 10.40 -5.06 -12.26 -10.03  4.29  5.74 -10.78 -10.38 11.52  3.46 -14.04 -8.26 
+utt>     5                      Ba_5  120    0    16 12  3 6 6.244526e-12 -1.423180e+02 -1.707816e+04
+INFO: cmn.c(133): CMN: 43.07  8.98 -2.26 -12.42 -11.11  5.01  0.94 -6.16 -9.95  9.61  2.51 -13.08 -7.04 
+utt>     6                      Ba_6  139    0    16 12  3 6 7.168421e-12 -1.424077e+02 -1.979467e+04
+INFO: cmn.c(133): CMN: 45.56  7.64 -1.69 -11.76 -12.13  5.90  2.75 -8.45 -14.74 12.49  1.12 -9.32 -5.80 
+utt>     7                      Ba_7  131    0    16 12  3 6 7.929183e-12 -1.432241e+02 -1.876235e+04
+INFO: cmn.c(133): CMN: 42.63  9.27  0.32 -12.72 -11.70  5.02  3.23 -8.71 -4.05  4.02  6.63 -16.05 -3.30 
+utt>     8                      Ba_8  129    0    16 13  3 6 5.639107e-12 -1.431273e+02 -1.846342e+04
+INFO: cmn.c(133): CMN: 44.82  8.73 -8.32 -3.37 -16.53  4.55  0.66 -1.74 -8.87  3.71  1.38 -4.77 -7.31 
+utt>     9                      Ba_9  148    0    16 13  3 6 7.943310e-12 -1.427713e+02 -2.113015e+04
+INFO: cmn.c(133): CMN: 45.65  7.32 -5.44  1.15 -16.60  5.18 -2.38  0.84 -6.59 -0.65  2.69 -3.82 -6.20 
+utt>    10                     Ba_10  157    0    16 13  3 6 5.310499e-12 -1.438871e+02 -2.259027e+04
+INFO: cmn.c(133): CMN: 43.95 10.60 -3.16 -11.42 -11.03  4.67  5.31 -8.01 -9.50  5.53  2.85 -12.99 -7.50 
+utt>    11                     Ba_11  126    0    16 13  3 6 8.052240e-12 -1.410176e+02 -1.776821e+04
+INFO: cmn.c(133): CMN: 44.89  8.42 -1.51 -9.16 -13.79  4.07  1.68 -2.20 -6.37  7.01 -2.97 -10.47 -3.72 
+utt>    12                     Ba_12  150    0    16 13  3 6 7.007307e-12 -1.440520e+02 -2.160780e+04
+INFO: cmn.c(133): CMN: 42.28  9.25 -3.91 -10.52 -14.15  7.47  4.58 -10.36 -8.78  5.77  4.15 -15.93 -0.47 
+utt>    13                     Ba_13  165    0    16 12  2 5 4.381427e-12 -1.431164e+02 -2.361420e+04
+INFO: cmn.c(133): CMN: 43.04  8.88  3.84 -8.75 -15.21  9.67 -0.71  4.49 -7.94  7.82 -2.06 -7.97 -3.77 
+utt>    14                     Ba_14  144    0    16 12  3 6 4.652120e-12 -1.466493e+02 -2.111750e+04
+INFO: cmn.c(133): CMN: 43.53 10.57 -3.91 -14.85 -9.10  6.69 -0.62 -9.24 -12.21  9.15  0.13 -9.72 -4.48 
+utt>    15                     Ba_15  151    0    16 13  2 5 3.753921e-12 -1.420660e+02 -2.145196e+04
+INFO: cmn.c(133): CMN: 41.83 10.09  0.58 -12.30 -13.55  5.83  6.34 -8.48 -4.42  6.43  4.17 -14.31 -5.37 
+utt>    16                     Ba_16  150    0    16 14  3 6 6.521668e-12 -1.413276e+02 -2.119914e+04
+INFO: cmn.c(133): CMN: 44.45  7.16 -1.47 -9.74 -16.03 10.37  1.89 -1.10 -13.10  8.21  0.81 -10.56 -2.15 
+utt>    17                     Ba_17  163    0    16 13  3 6 7.768007e-12 -1.434731e+02 -2.338612e+04
+INFO: cmn.c(133): CMN: 43.07 10.81 -0.06 -13.04 -9.41  5.49  8.85 -11.80 -12.52 11.73 -0.07 -10.85 -6.55 
+utt>    18                     Ba_18  146    0    16 13  3 6 6.964805e-12 -1.417384e+02 -2.069380e+04
+INFO: cmn.c(133): CMN: 46.66  5.56 -1.34 -9.82 -15.44  2.38  5.66 -4.60 -11.62  8.78  3.57 -18.81 -3.01 
+utt>    19                     Ba_19  137    0    16 12  3 6 4.205319e-12 -1.464361e+02 -2.006175e+04
+INFO: cmn.c(133): CMN: 44.62  9.50 -4.93 -11.10 -9.90  4.84  4.59 -11.97 -11.13 13.01 -1.44 -8.74 -2.97 
+utt>    20                     Ba_20  147    0    16 14  3 7 8.773711e-12 -1.437863e+02 -2.113659e+04
+INFO: cmn.c(133): CMN: 45.64  4.64  8.25 -0.28 -21.13 -3.11 16.71 10.00  7.54  5.11 -5.96 -9.49  3.21 
+utt>    21                       Bon   90    0    20 12  3 6 2.931881e-12 -1.644806e+02 -1.480325e+04
+INFO: cmn.c(133): CMN: 40.98  6.42 21.34  1.01 -15.96 -4.81 -1.83 -3.16  5.38 -5.45  2.16 -8.09  1.70 
+utt>    22                     Bon_1  123    0    20 15  3 7 4.390124e-12 -1.489596e+02 -1.832203e+04
+INFO: cmn.c(133): CMN: 44.89  8.10 17.61  3.18 -25.87  0.05 -8.95 -0.31 -9.03  4.41 -3.51 -2.84 -5.40 
+utt>    23                     Bon_2  116    0    20 15  3 7 4.324748e-12 -1.471463e+02 -1.706897e+04
+INFO: cmn.c(133): CMN: 38.82 12.89 14.70  4.59 -19.75 -4.59  1.58 -7.80  4.69 -2.21 -1.43 -2.70 -2.22 
+utt>    24                     Bon_3  141    0    20 15  3 7 5.041757e-12 -1.462841e+02 -2.062605e+04
+INFO: cmn.c(133): CMN: 34.18 16.37 12.19 -2.57 -13.60 -5.22  1.65 -3.08 -2.47 -0.68  1.10 -3.26 -5.81 
+utt>    25                     Bon_4  178    0    20 16  2 5 5.139969e-12 -1.408928e+02 -2.507891e+04
+INFO: cmn.c(133): CMN: 42.31 11.85 14.16  0.16 -21.90 -5.61 -3.00 -0.75 -3.49 -2.39  2.90 -3.25 -0.77 
+utt>    26                     Bon_5  131    0    20 15  3 6 6.449185e-12 -1.470368e+02 -1.926182e+04
+INFO: cmn.c(133): CMN: 39.97 18.08 16.26  2.22 -20.63 -7.84  0.02 -6.22  2.03 -3.05  0.91 -3.17  0.27 
+utt>    27                     Bon_6  117    0    20 14  3 7 8.939257e-12 -1.458897e+02 -1.706910e+04
+INFO: cmn.c(133): CMN: 39.56  9.54 15.34 -3.19 -22.93  1.70 -1.47 -5.93 -3.14 -0.06  1.01 -7.66 -1.52 
+utt>    28                     Bon_7  154    0    20 15  3 6 6.038288e-12 -1.463721e+02 -2.254130e+04
+INFO: cmn.c(133): CMN: 42.25 15.57 14.11 -1.91 -18.92 -2.57  2.55 -11.21 -4.54  1.49 -0.79  3.11 -4.74 
+utt>    29                     Bon_8  113    0    20 16  4 8 9.644981e-12 -1.467724e+02 -1.658529e+04
+INFO: cmn.c(133): CMN: 39.65 15.08 15.58 -1.96 -22.55 -3.54 -2.70 -8.21 -2.08 -1.46 -1.22 -3.36 -10.23 
+utt>    30                     Bon_9  129    0    20 15  3 7 8.300656e-12 -1.452008e+02 -1.873090e+04
+INFO: cmn.c(133): CMN: 37.80 17.31 21.66  0.58 -26.31 -4.30 -0.11 -8.53 -0.86 -2.52  0.26 -6.55 -1.62 
+utt>    31                    Bon_10  108    0    20 14  3 7 5.761661e-12 -1.473770e+02 -1.591671e+04
+INFO: cmn.c(133): CMN: 39.13 10.96 12.05  3.55 -16.14 -5.59 -2.94 -4.49 -2.28 -2.65  0.73 -2.58 -3.75 
+utt>    32                    Bon_11  129    0    20 15  3 7 4.874085e-12 -1.444051e+02 -1.862826e+04
+INFO: cmn.c(133): CMN: 39.21 15.29 22.18  0.75 -22.16 -6.03  0.02 -1.73 -0.25 -1.48 -1.52 -4.22 -5.30 
+utt>    33                    Bon_12  125    0    20 15  4 8 7.128081e-12 -1.442557e+02 -1.803196e+04
+INFO: cmn.c(133): CMN: 41.13 15.38 15.67 -4.78 -23.20 -4.19 -0.87 -10.18 -4.06 -3.02 -1.90 -3.49 -9.40 
+utt>    34                    Bon_13  137    0    20 15  3 7 6.017287e-12 -1.452349e+02 -1.989718e+04
+INFO: cmn.c(133): CMN: 35.42 16.06 17.32 -5.51 -18.30 -5.49 -2.56 -4.00 -2.08 -2.10 -1.52 -2.87 -5.41 
+utt>    35                    Bon_14  147    0    20 15  3 7 7.549328e-12 -1.449161e+02 -2.130267e+04
+INFO: cmn.c(133): CMN: 39.34 14.25 17.87 -1.48 -19.34 -2.67 -5.25 -0.83 -7.28  1.89  0.85 -3.29 -6.29 
+utt>    36                    Bon_15  135    0    20 15  3 7 7.141033e-12 -1.432008e+02 -1.933211e+04
+INFO: cmn.c(133): CMN: 38.60 15.33 19.31 -2.91 -22.63 -1.68 -1.75 -10.38  0.03 -5.83  1.23 -5.46 -1.94 
+utt>    37                    Bon_16  115    0    20 15  3 7 7.779358e-12 -1.450347e+02 -1.667899e+04
+INFO: cmn.c(133): CMN: 41.84 16.21 17.95 -4.63 -20.24 -4.68 -0.88 -12.64 -2.93  4.34  0.73 -6.55 -0.70 
+utt>    38                    Bon_17  105    0    20 15  4 8 6.500833e-12 -1.474826e+02 -1.548567e+04
+INFO: cmn.c(133): CMN: 39.85 15.83 16.66 -2.62 -22.76 -1.09 -6.16 -4.36 -6.08  1.14  0.59 -4.20 -6.50 
+utt>    39                    Bon_18  132    0    20 16  3 7 6.933882e-12 -1.436279e+02 -1.895889e+04
+INFO: cmn.c(133): CMN: 42.75 15.62 22.25  0.91 -24.58 -7.55 -1.40  1.11 -3.09  1.51 -3.16 -5.57 -4.03 
+utt>    40                    Bon_19  107    0    20 15  4 8 7.702982e-12 -1.433894e+02 -1.534267e+04
+INFO: cmn.c(133): CMN: 39.71 14.83 21.28 -5.28 -22.97 -6.00 -4.04 -5.29 -5.22 -1.90 -3.35 -5.17 -5.56 
+utt>    41                    Bon_20  130    0    20 15  3 7 8.517445e-12 -1.440807e+02 -1.873049e+04
+INFO: cmn.c(133): CMN: 52.60 -4.57 -14.61  3.30 -3.67  3.68  0.64  1.80  2.61 -3.74  2.87 -2.48 -5.72 
+utt>    42                       Hai  103    0    16 10  2 5 1.408852e-12 -1.601543e+02 -1.649589e+04
+INFO: cmn.c(133): CMN: 39.10  6.37 -2.96 -4.84 -6.37  0.02 -10.07 -5.13  0.63 -9.17 -2.55 -13.03 -1.17 
+utt>    43                     Hai_1  160    0    16 13  2 5 5.046118e-12 -1.417525e+02 -2.268039e+04
+INFO: cmn.c(133): CMN: 42.60  5.82 -5.50  0.84 -0.55  2.07 -7.95 -3.64 -0.08 -1.70 -4.50 -15.29  0.82 
+utt>    44                     Hai_2  142    0    16 12  2 5 3.773951e-12 -1.443327e+02 -2.049525e+04
+INFO: cmn.c(133): CMN: 40.95  4.90 -2.78 -2.80 -3.99  6.36 -14.92 -9.82 -0.48 -6.44  0.54 -9.13 -1.75 
+utt>    45                     Hai_3  151    0    16 12  2 4 3.829796e-12 -1.434647e+02 -2.166318e+04
+INFO: cmn.c(133): CMN: 46.82 -4.87 -7.84  1.94 -10.35  2.62 -6.78 -10.47 -0.54 -1.95 -8.28 -2.78 -1.87 
+utt>    46                     Hai_4  194    0    16 12  2 4 4.217353e-12 -1.425909e+02 -2.766264e+04
+INFO: cmn.c(133): CMN: 43.81  3.12 -3.20 -6.33 -5.12  7.85 -8.57 -15.93  1.37  1.07 -19.05  1.38 -1.36 
+utt>    47                     Hai_5  143    0    16 11  2 5 4.972305e-12 -1.438844e+02 -2.057547e+04
+INFO: cmn.c(133): CMN: 43.41  3.37 -5.97 -8.22 -8.67 12.75 -7.20 -19.57 -4.93  7.31 -21.20 -2.00 -1.37 
+utt>    48                     Hai_6  164    0    16 12  2 5 3.322944e-12 -1.426411e+02 -2.339314e+04
+INFO: cmn.c(133): CMN: 43.60  2.61 -4.37  0.68 -10.06 11.64 -2.83 -14.04 -0.28  8.55 -21.73 -2.10  2.43 
+utt>    49                     Hai_7  161    0    16 12  2 5 4.794518e-12 -1.425696e+02 -2.295371e+04
+INFO: cmn.c(133): CMN: 43.82  4.15 -7.55 -5.96 -8.20 12.48 -7.37 -14.07  1.82  2.87 -19.80 -3.63  2.08 
+utt>    50                     Hai_8  148    0    16 12  2 5 5.540307e-12 -1.419814e+02 -2.101325e+04
+INFO: cmn.c(133): CMN: 40.46  3.75 -3.78 -5.08 -4.74  8.51 -3.64 -8.98  3.73  3.31 -16.17 -2.40  2.28 
+utt>    51                     Hai_9  164    0    16 12  2 5 3.684105e-12 -1.427899e+02 -2.341754e+04
+INFO: cmn.c(133): CMN: 45.83 -0.64 -8.45 -2.71 -10.16 11.73 -12.63 -15.54  2.89  2.07 -17.63  0.92  5.89 
+utt>    52                    Hai_10  153    0    16 12  2 5 4.084792e-12 -1.435263e+02 -2.195952e+04
+INFO: cmn.c(133): CMN: 43.53 -0.47 -2.83  0.20 -7.78  1.30 -3.07 -5.00 -2.06 -1.91 -9.72 -1.72  0.89 
+utt>    53                    Hai_11  182    0    16 12  2 5 3.623549e-12 -1.435834e+02 -2.613218e+04
+INFO: cmn.c(133): CMN: 41.70  3.44 -3.60 -3.21 -6.12  3.56 -18.56 -1.70  2.07 -5.53 -9.09 -4.05 -0.42 
+utt>    54                    Hai_12  161    0    16 12  3 5 5.094773e-12 -1.436412e+02 -2.312624e+04
+INFO: cmn.c(133): CMN: 43.75 -0.11 -5.99 -3.18 -13.46 12.23 -6.00 -16.67  0.53  1.36 -16.28 -5.20  4.74 
+utt>    55                    Hai_13  188    0    16 12  2 4 5.668062e-12 -1.425997e+02 -2.680874e+04
+INFO: cmn.c(133): CMN: 37.05  7.25  1.69 -4.85 -3.75 -0.45 -6.15 -4.27 -2.52 -6.38 -4.42 -7.15 -0.81 
+utt>    56                    Hai_14  155    0    16 12  2 5 4.962647e-12 -1.428496e+02 -2.214168e+04
+INFO: cmn.c(133): CMN: 36.64  7.22 -0.84 -2.69 -6.15  0.62 -7.58 -5.94 -1.34 -6.89 -4.04 -9.79  0.58 
+utt>    57                    Hai_15  146    0    16 11  2 5 5.233453e-12 -1.415836e+02 -2.067120e+04
+INFO: cmn.c(133): CMN: 44.12  5.81 -5.19 -6.76 -6.14  5.50 -15.11 -2.31 -2.57 -3.90 -3.15 -11.85 -0.21 
+utt>    58                    Hai_16  126    0    16 12  3 6 3.721915e-12 -1.425205e+02 -1.795758e+04
+INFO: cmn.c(133): CMN: 42.55  1.27 -6.89  1.82 -11.39  1.13 -10.46 -3.66 -6.70 -6.29 -4.57  0.43 -0.59 
+utt>    59                    Hai_17  172    0    16 11  2 5 3.424134e-12 -1.461251e+02 -2.513351e+04
+INFO: cmn.c(133): CMN: 45.75  2.77 -9.11  1.73 -12.50  8.29 -8.72 -9.91 -1.66  6.36 -17.72 -6.45  6.71 
+utt>    60                    Hai_18  150    0    16 12  3 6 3.757931e-12 -1.424313e+02 -2.136470e+04
+INFO: cmn.c(133): CMN: 44.73  3.49 -4.93  4.25 -15.30  6.23 -5.03 -11.60 -6.48  2.48 -18.48  0.28  1.68 
+utt>    61                    Hai_19  146    0    16 11  2 5 5.379905e-12 -1.439885e+02 -2.102233e+04
+INFO: cmn.c(133): CMN: 45.82  0.21 -8.57  0.69 -15.62  9.22 -10.47 -13.15 -2.30  4.47 -18.63 -4.09  1.33 
+utt>    62                    Hai_20  160    0    16 13  2 5 3.279962e-12 -1.427133e+02 -2.283412e+04
+INFO: cmn.c(133): CMN: 38.95  2.62 -5.57 -15.14 -21.00 -4.78 10.81  9.20 12.50  9.74 -4.39 -17.56 -6.16 
+utt>    63                       Mot  124    0    20 13  2 5 2.960750e-12 -1.568035e+02 -1.944363e+04
+INFO: cmn.c(133): CMN: 38.62 14.39  4.49 -8.49 -19.68  4.45  7.17 -11.96 -3.19  3.74 -17.17 -0.77  1.67 
+utt>    64                     Mot_1  131    0    20 14  3 6 4.711845e-12 -1.449727e+02 -1.899143e+04
+INFO: cmn.c(133): CMN: 39.33 12.19  5.00 -12.61 -24.96  0.32  2.89 -3.85 -1.61  2.55 -9.02 -1.65 -3.77 
+utt>    65                     Mot_2  134    0    20 14  2 5 4.584115e-12 -1.423630e+02 -1.907664e+04
+INFO: cmn.c(133): CMN: 36.45 15.60  6.43 -6.66 -22.05 -5.11  2.16 -0.39 -4.10  1.74 -6.32 -2.60 -3.14 
+utt>    66                     Mot_3  124    0    20 14  2 5 4.593838e-12 -1.411403e+02 -1.750140e+04
+INFO: cmn.c(133): CMN: 38.55 14.32  9.20 -7.77 -27.05 -2.60  4.39  0.12 -2.95  1.63 -7.06 -3.44 -1.77 
+utt>    67                     Mot_4  114    0    20 14  3 6 6.584444e-12 -1.419575e+02 -1.618315e+04
+INFO: cmn.c(133): CMN: 41.43 17.98 11.13 -8.27 -37.51 -3.49  6.52 -10.63  4.81  2.11 -5.06 -10.17  0.62 
+utt>    68                     Mot_5   88    0    20 13  3 6 4.329912e-12 -1.459520e+02 -1.284378e+04
+INFO: cmn.c(133): CMN: 36.80 15.15  6.52 -5.92 -29.56 -4.18  3.11 -4.63 -5.62  4.21 -6.90 -5.48 -5.69 
+utt>    69                     Mot_6  115    0    20 14  3 6 5.597944e-12 -1.431409e+02 -1.646120e+04
+INFO: cmn.c(133): CMN: 40.71 12.20  9.07 -11.33 -29.14 -0.97  2.67 -5.85  0.71 -3.73 -4.96 -7.61 -1.53 
+utt>    70                     Mot_7  116    0    20 14  2 5 7.696895e-12 -1.444341e+02 -1.675435e+04
+INFO: cmn.c(133): CMN: 38.18 12.17  9.12 -2.12 -27.62 -3.72  5.54  0.78  3.45 -2.58 -5.98 -0.34 -4.34 
+utt>    71                     Mot_8  138    0    20 14  3 6 4.161178e-12 -1.447765e+02 -1.997916e+04
+INFO: cmn.c(133): CMN: 37.50 14.70  8.43 -10.60 -23.83 -1.26  4.10 -3.74  2.16 -2.31 -2.10 -5.09 -3.41 
+utt>    72                     Mot_9  115    0    20 13  3 5 3.915651e-12 -1.407405e+02 -1.618516e+04
+INFO: cmn.c(133): CMN: 41.02 10.39  2.65 -9.54 -24.00  7.78 -0.85 -4.98  6.13  2.33 -7.60 -3.46  1.44 
+utt>    73                    Mot_10  151    0    20 14  2 5 5.746346e-12 -1.455686e+02 -2.198086e+04
+INFO: cmn.c(133): CMN: 39.27 15.23  9.65 -8.80 -27.25  0.07  3.66 -4.93  1.04 -0.42 -11.07  3.05 -10.17 
+utt>    74                    Mot_11  109    0    20 13  3 6 8.188992e-12 -1.433575e+02 -1.562596e+04
+INFO: cmn.c(133): CMN: 36.13 13.13 10.20 -8.35 -22.37 -5.18  4.67 -0.37  3.16  0.90 -7.84  1.34 -7.48 
+utt>    75                    Mot_12  135    0    20 14  3 6 7.829575e-12 -1.423628e+02 -1.921898e+04
+INFO: cmn.c(133): CMN: 38.53 15.36  7.48 -12.41 -17.78  2.99  1.40 -3.13  0.61 -2.00 -7.42 -3.35 -3.12 
+utt>    76                    Mot_13  128    0    20 14  2 5 5.221796e-12 -1.431511e+02 -1.832334e+04
+INFO: cmn.c(133): CMN: 31.39 14.53  3.83 -12.92 -14.03  1.53  0.82 -5.97 -1.02 -2.40 -2.33 -4.89 -3.17 
+utt>    77                    Mot_14  178    0    20 14  2 5 5.073182e-12 -1.419244e+02 -2.526255e+04
+INFO: cmn.c(133): CMN: 31.39 14.93  9.32 -10.21 -18.27 -4.25  3.95 -1.53 -0.91 -0.89 -6.49 -1.21 -4.01 
+utt>    78                    Mot_15  168    0    20 14  2 5 6.238244e-12 -1.408837e+02 -2.366847e+04
+INFO: cmn.c(133): CMN: 36.59 13.27  3.23 -11.40 -21.12  5.53 -2.74 -5.24 -2.49  0.05 -10.56 -3.90 -4.49 
+utt>    79                    Mot_16  171    0    20 14  2 5 3.994853e-12 -1.440754e+02 -2.463688e+04
+INFO: cmn.c(133): CMN: 32.99 15.38 10.84 -11.90 -16.46 -1.03  1.22 -1.47 -0.27 -1.91 -6.80 -1.18 -3.65 
+utt>    80                    Mot_17  137    0    20 14  3 6 7.084864e-12 -1.425887e+02 -1.953466e+04
+INFO: cmn.c(133): CMN: 36.99 13.59  8.88 -7.60 -22.91  4.41 -0.30 -3.02 -0.23 -1.55 -4.13 -3.69 -7.63 
+utt>    81                    Mot_18  134    0    20 14  3 6 4.121681e-12 -1.440066e+02 -1.929689e+04
+INFO: cmn.c(133): CMN: 35.64 16.39  0.43 -9.72 -19.08  0.41  3.39 -3.86  1.54 -0.78 -6.04 -1.02 -5.30 
+utt>    82                    Mot_19  132    0    20 14  2 5 5.342557e-12 -1.427127e+02 -1.883808e+04
+INFO: cmn.c(133): CMN: 35.59 17.90 11.69 -8.81 -23.21 -13.15  2.29  7.32  1.54 -4.92 -4.11 -10.14 -2.58 
+utt>    83                    Mot_20  109    0    20 14  3 7 4.696970e-12 -1.435691e+02 -1.564903e+04
+INFO: cmn.c(133): CMN: 40.59  0.15 -3.32 -4.08 -1.69  6.16 14.14 14.17 -7.55 -3.84  4.21 -6.89 -2.67 
+utt>    84                       Nam  121    0    20 14  3 6 3.499551e-12 -1.633974e+02 -1.977108e+04
+INFO: cmn.c(133): CMN: 44.99 11.74  2.53 -3.98 -9.78  8.03  7.29  6.31  2.60 -5.75 -5.56 -14.64  1.50 
+utt>    85                     Nam_1  124    0    20 14  3 6 6.394970e-12 -1.438044e+02 -1.783174e+04
+INFO: cmn.c(133): CMN: 45.38  7.95  1.59 -2.51 -14.32 10.46  2.42 -0.90 -0.49 -6.85 -0.77 -9.99 -4.50 
+utt>    86                     Nam_2  128    0    20 14  3 7 5.641137e-12 -1.433839e+02 -1.835314e+04
+INFO: cmn.c(133): CMN: 43.34  7.61  2.76 -5.23 -10.54 12.06  2.71 -1.51  3.15 -2.85 -2.84 -9.68 -6.29 
+utt>    87                     Nam_3  153    0    20 13  3 6 5.651568e-12 -1.448562e+02 -2.216300e+04
+INFO: cmn.c(133): CMN: 45.97 12.00  0.07 -3.28 -8.59 12.17 -0.60 -3.01  4.67 -4.18 -8.15 -5.88 -5.05 
+utt>    88                     Nam_4  122    0    20 14  3 7 5.514580e-12 -1.433464e+02 -1.748826e+04
+INFO: cmn.c(133): CMN: 42.63 13.26 -0.79 -4.53 -7.36 -0.33  1.67  0.31  0.32 -3.90 -6.82 -7.79 -3.93 
+utt>    89                     Nam_5  144    0    20 15  3 7 7.083409e-12 -1.418972e+02 -2.043319e+04
+INFO: cmn.c(133): CMN: 42.63 13.26 -0.79 -4.53 -7.36 -0.33  1.67  0.31  0.32 -3.90 -6.82 -7.79 -3.93 
+utt>    90                     Nam_6  144    0    20 15  3 7 7.083409e-12 -1.418972e+02 -2.043319e+04
+INFO: cmn.c(133): CMN: 44.71 11.95 -3.19 -1.68 -5.12  4.33 -1.27  3.43  2.27  0.04 -4.20 -14.52  3.74 
+utt>    91                     Nam_7  127    0    20 14  3 7 5.609530e-12 -1.437867e+02 -1.826091e+04
+INFO: cmn.c(133): CMN: 45.05 12.95  0.33 -1.01 -3.62  9.92 11.56 -4.15 -5.16  2.86 -6.72 -8.12 -1.11 
+utt>    92                     Nam_8  106    0    20 14  3 6 4.810175e-12 -1.454463e+02 -1.541731e+04
+INFO: cmn.c(133): CMN: 39.72 15.59 -0.24 -3.77 -6.01 16.44  2.51 -4.37  3.99  1.69 -4.42 -9.37 -6.02 
+utt>    93                     Nam_9  174    0    20 15  3 5 6.681988e-12 -1.444252e+02 -2.512998e+04
+INFO: cmn.c(133): CMN: 43.33 13.28 -8.72 -0.26 -6.19 12.91  7.49 -9.41  3.02  3.39 -5.78 -11.87 -0.85 
+utt>    94                    Nam_10  142    0    20 15  3 6 6.311156e-12 -1.452220e+02 -2.062152e+04
+INFO: cmn.c(133): CMN: 41.97 13.92 -1.33  2.13 -10.24 13.59 11.03 -1.19 -2.72  3.28 -4.96 -11.88 -4.63 
+utt>    95                    Nam_11  118    0    20 14  3 7 4.353680e-12 -1.440192e+02 -1.699426e+04
+INFO: cmn.c(133): CMN: 43.01 11.02 -2.54  0.16 -8.46 16.36 11.88 -5.72  0.17  4.59 -8.24 -9.50 -5.75 
+utt>    96                    Nam_12  131    0    20 14  3 7 5.691656e-12 -1.435357e+02 -1.880317e+04
+INFO: cmn.c(133): CMN: 43.30 11.46 -4.44 -1.03 -12.75 17.07 16.69 -7.45  0.79  6.20 -5.55 -10.02 -6.20 
+utt>    97                    Nam_13  118    0    20 14  3 7 5.967197e-12 -1.441434e+02 -1.700893e+04
+INFO: cmn.c(133): CMN: 39.89 12.10 -0.50 -2.54 -7.27 16.76 12.30 -1.91 -5.27  5.03 -3.42 -10.60 -9.58 
+utt>    98                    Nam_14  155    0    20 15  3 6 6.547257e-12 -1.433498e+02 -2.221921e+04
+INFO: cmn.c(133): CMN: 44.36 10.80 -6.31  1.54 -12.10 18.40 11.66 -8.62  0.22  8.71 -7.22 -8.14 -4.55 
+utt>    99                    Nam_15  125    0    20 15  3 6 4.168799e-12 -1.441206e+02 -1.801508e+04
+INFO: cmn.c(133): CMN: 39.58 13.21 -1.77 -1.38 -8.53  8.52 11.67 -0.01 -7.23  8.49 -7.41 -13.67 -6.76 
+utt>   100                    Nam_16  137    0    20 14  3 7 5.303531e-12 -1.418864e+02 -1.943844e+04
+INFO: cmn.c(133): CMN: 44.67 12.24 -3.14  5.20 -12.24 14.87 15.79 -3.08 -4.72  5.56 -8.32 -16.87 -8.39 
+utt>   101                    Nam_17  117    0    20 14  3 7 6.352641e-12 -1.438909e+02 -1.683524e+04
+INFO: cmn.c(133): CMN: 44.10 11.98 -5.90 -4.08 -7.64 11.79  5.00 -7.16 -6.43  3.22 -3.02 -9.44 -4.60 
+utt>   102                    Nam_18  130    0    20 15  3 6 3.191357e-12 -1.448717e+02 -1.883333e+04
+INFO: cmn.c(133): CMN: 43.35 14.47 -6.49 -3.51 -7.47  8.87  6.53 -5.28 -8.03 -0.16 -0.76 -17.48 -2.86 
+utt>   103                    Nam_19  129    0    20 15  3 7 5.168105e-12 -1.422431e+02 -1.834935e+04
+INFO: cmn.c(133): CMN: 43.08 14.26 -6.78  0.47 -5.29 11.79  1.33 -13.56 -0.33  5.33 -8.78 -11.49 -1.25 
+utt>   104                    Nam_20  134    0    20 15  3 7 5.628236e-12 -1.447418e+02 -1.939541e+04
+overall> stats 14328 (-0) -1.442559e+02 -2.066898e+06
+
+INFO: s3mixw_io.c(233): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/bwaccumdir/other_buff_1/mixw_counts [27x1x1 array]
+INFO: s3tmat_io.c(176): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/bwaccumdir/other_buff_1/tmat_counts [9x3x4 array]
+INFO: s3gau_io.c(485): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/bwaccumdir/other_buff_1/gauden_counts with means with vars (2pass) [27x1x1 vector arrays]
+INFO: main.c(999): Counts saved to D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/bwaccumdir/other_buff_1
+Mon Apr 15 21:01:45 2019

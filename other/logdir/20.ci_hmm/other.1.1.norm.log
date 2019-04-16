@@ -1,0 +1,32 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\bwaccumdir\other_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/means
+-mixwfn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/transition_matrices
+-varfn			D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\bwaccumdir\other_buff_1
+INFO: s3mixw_io.c(117): Read D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\bwaccumdir\other_buff_1/mixw_counts [27x1x1 array]
+INFO: s3tmat_io.c(118): Read D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\bwaccumdir\other_buff_1/tmat_counts [9x3x4 array]
+INFO: s3gau_io.c(386): Read D:\Lecture\Master_Course\CMU_Sphinx_Speech_Processing\TDTU_CMUSphinx_Report\other\bwaccumdir\other_buff_1/gauden_counts with means with vars [27x1x1 vector arrays]
+INFO: main.c(391): Normalizing mean for n_mgau= 27, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/mixture_weights [27x1x1 array]
+INFO: s3tmat_io.c(176): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/transition_matrices [9x3x4 array]
+INFO: s3gau_io.c(228): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/means [27x1x1 array]
+INFO: s3gau_io.c(228): Wrote D:/Lecture/Master_Course/CMU_Sphinx_Speech_Processing/TDTU_CMUSphinx_Report/other/model_parameters/other.ci_cont/variances [27x1x1 array]
+Mon Apr 15 21:01:44 2019
+Current Overall Likelihood Per Frame = -147.880792853155
